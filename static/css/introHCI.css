@@ -12,8 +12,11 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
+     color: #FAFAFA;
+     font-family: "Comic Sans MS", "Comic Sans", cursive;
      border: 1px dotted gray;
      padding: 20px;
+     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 }
 
 .jumbotron {
@@ -32,3 +35,13 @@ body {
      position: absolute;
      z-index: -1;
 }
+
+.project {
+     margin-left: 20px;
+}
+
+img {
+     width: 300px;
+     height: 400px;
+     object-fit: cover;
+   }
